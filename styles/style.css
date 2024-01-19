@@ -55,18 +55,16 @@ body {
 /* style for banner */
 
 .banner {
-    width: 1440px;
-    margin: 0 auto;
+    width: 100%;
     height: 600px;
     margin: 0 auto;
-    margin-top: 40px;
     margin-bottom: 40px;
-    border-radius: 10px;
+    border-radius: 0px;
     background-image: url(../images/mj\ matrix\ -\ banner.png);
     background-size: cover;
 }
 
-.btn-primary {
+.banner .btn {
     background-color: #FF9900;
     color: #fff;
     font-size: 1.5rem;
@@ -76,6 +74,9 @@ body {
     border-radius: 10px;
     font-family: "Lexend Exa", sans-serif;
     cursor: pointer;
+    position: relative;
+    top: 65%;
+    left: 68%;
 }
 
 .banner .btn a {
@@ -88,8 +89,117 @@ body {
     color: #000000;
 }
 
-.banner .btn {
-    position: relative;
-    top: 65%;
-    left: 68%;
+/* Styles for book section */
+
+.book-shelf{
+    width: 100%;
+    height: auto;
+    padding: 50px;
 }
+
+.book-shelf h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.book-shelf .shelf{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.shelf .image img{
+    min-width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.book-shelf .book-title{
+    font-size: 3rem;
+    color: #FF9900;
+}
+
+.book-shelf .book-description{
+    font-size: 1rem;
+    margin-top: 80px;
+    color: #474747;
+}
+
+.book-shelf .book-price{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.book-shelf .book-price span{
+    color: #FF9900;
+}
+
+.book-shelf .book-order{
+    text-decoration: none;
+    background-color: #FF9900;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.book-shelf .book-order:active{
+    transform: scale(0.9);
+    background-color: #c47806;
+}
+
+/* Responsive For Phones */
+ @media screen and (max-width:576px) {
+
+    .header {
+        flex-direction: column;
+        padding: 40px 10px;
+    }
+
+    .header h2 {
+        font-size: 2rem;
+    }
+
+    .header nav ul{
+        margin-top: 20px;
+    }
+
+    .header nav ul li {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .banner {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+        border-radius: 0px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner .btn {
+        display: none;
+    }
+
+    .shelf .image img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .book-shelf .shelf{
+        flex-direction: column;
+        gap: 20px;
+    }
+ }
