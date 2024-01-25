@@ -35,7 +35,7 @@ body {
     color: #fff;
 }
 
-.header nav ul li a{
+.header nav ul li a {
     text-decoration: none;
     color: #000000;
 }
@@ -91,12 +91,12 @@ body {
 
 /* Styles for book section */
 
-.book-shelf{
+.book-shelf {
     width: 100%;
     height: auto;
 }
 
-.section-title{
+.section-title {
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
@@ -104,7 +104,7 @@ body {
     margin-bottom: 50px;
 }
 
-.book-shelf .shelf{
+.book-shelf .shelf {
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -114,41 +114,41 @@ body {
     justify-content: space-between;
     gap: 80px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.shelf .image img{
+.shelf .image img {
     min-width: 100%;
     height: 500px;
     border-radius: 10px;
 }
 
-.book-shelf .book-title{
+.book-shelf .book-title {
     font-size: 3rem;
     color: #000000;
 }
 
-.book-shelf .book-description{
+.book-shelf .book-description {
     font-size: 1.5rem;
     margin-top: 50px;
     color: #474747;
 }
 
-.book-shelf .book-price{
+.book-shelf .book-price {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
-.book-shelf .book-price span{
+.book-shelf .book-price span {
     color: #FF9900;
 }
 
-sup{
+sup {
     font-size: 0.8rem;
 }
 
-.book-shelf .book-order{
+.book-shelf .book-order {
     text-decoration: none;
     background-color: #FF9900;
     color: #fff;
@@ -158,29 +158,30 @@ sup{
     font-weight: 600;
 }
 
-.book-shelf .book-order:active{
+.book-shelf .book-order:active {
     transform: scale(0.9);
     background-color: #c47806;
 }
 
 /* Style for News and Blogs */
 
-#blogs{
-    width: 60%;
+#blogs {
+    width: 50%;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
     margin-bottom: 100px;
 }
 
-#blogs img{
+#blogs img {
     width: 100%;
     height: auto;
+    margin: auto;
     border: none;
 }
 
 /* Style for Contact Section */
 
-#contact{
+#contact {
     width: 100%;
     height: auto;
     padding: 50px 100px;
@@ -188,29 +189,29 @@ sup{
     text-align: center;
 }
 
-.links{
+.links {
     margin-bottom: 20px;
 }
 
-.links a{
+.links a {
     text-decoration: none;
     color: #000;
 }
 
-hr{
+hr {
     border: 1px solid #ffffff;
 }
 
-.links i{
+.links i {
     font-size: 2rem;
     margin-right: 10px;
 }
 
-.copyright{
+.copyright {
     margin-top: 40px;
 }
 
-.develop{
+.develop {
     margin-top: 30px;
     font-size: 0.8rem;
     color: #fff;
@@ -219,7 +220,7 @@ hr{
 
 /* Responsive For Phones */
 
- @media screen and (max-width:576px) {
+@media screen and (max-width:576px) {
 
     .header {
         flex-direction: column;
@@ -230,7 +231,7 @@ hr{
         font-size: 2rem;
     }
 
-    .header nav ul{
+    .header nav ul {
         margin-top: 20px;
     }
 
@@ -253,56 +254,55 @@ hr{
         display: none;
     }
 
-    .shelf .image img{
+    .shelf .image img {
         width: 100%;
         height: 100%;
     }
 
-    .book-shelf{
+    .book-shelf {
         margin-bottom: 40px;
     }
 
-    .book-shelf .shelf{
+    .book-shelf .shelf {
         padding: 10px 10px;
         flex-direction: column;
         gap: 30px;
         padding-bottom: 40px;
     }
 
-    .section-title{
+    .section-title {
         margin-top: 30px;
         margin-bottom: 30px;
         font-size: 2rem;
     }
 
-    .book-shelf .book-title{
+    .book-shelf .book-title {
         font-size: 2rem;
     }
 
-    .book-shelf .book-price{
+    .book-shelf .book-price {
         font-size: 1.2rem;
         margin-top: 20px;
         margin-bottom: 40px;
     }
 
-    .book-shelf .book-description{
+    .book-shelf .book-description {
         margin-top: 50px;
     }
 
-    #blogs{
+    #blogs {
         width: 90%;
         height: auto;
         margin: 0 auto;
         margin-bottom: 50px;
     }
-    
-    #blogs .blog1{
+
+    #blogs img {
         width: 100%;
-        height: 500px;
-        border: none;
+        height: auto;
     }
 
-    #contact{
+    #contact {
         padding: 50px 50px;
     }
- }
+}
