@@ -34,21 +34,36 @@
         <section id="books" class="book-shelf">
             <h1 class="section-title">Books</h1>
             <!-- Book 1 -->
-            <div class="shelf">
+            <div class="shelf book-1">
                 <div class="image">
-                    <img src="images/DSC.jpg" draggable="false" alt="Dhuturar Shesh Chithi">
+                    <img src="images/dhuturar shesh chithi.jpg" draggable="false" alt="Dhuturar Shesh Chithi">
                 </div>
                 <div class="content">
                     <h3 class="book-title">Dhuturar Shesh Chithi</h3>
                     <h4 class="book-price">Price: <span>BDT 65.00</span></h4>
                     <a class="book-order" href="https://forms.gle/UefA24tCY3hBRQNX8">Order Now</a>
-                    <p class="book-description">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
+                    <p class="book-description">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
+                        ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
+                    <p class="status">Status: <span class="available">Available</span></p>
+                </div>
+            </div>
+            <!-- Book 2 -->
+            <div class="shelf book-2">
+                <div class="image">
+                    <img src="images/appreciate the forgiveness.png" draggable="false" alt="Dhuturar Shesh Chithi">
+                </div>
+                <div class="content">
+                    <h3 class="book-title">Appreciate The Forgiveness</h3>
+                    <h4 class="book-price">Price: <span>BDT 00.00</span></h4>
+                    <a class="book-order" onclick="ordererror()">Order Now</a>
+                    <p class="book-description">মৃত্যুর সামনে দাঁড়িয়ে আমার মগজ সকল কিছুর জবাব অনেক পরিস্কার ভাবে দিয়েই চলছে। কেনো যেন নিজের মগজকে একবিংশ শতাব্দীর সেরা কম্পিউটার বলে মনে হচ্ছে। যার কাছে সকল কিছুর জবাবই রয়েছে। একটু পরই নাইনএমএম এর অনেক গুলো শক্ত প্রাচীর আমার শরীরে আঘাত করবে। খন্ড বিখন্ড করে ফেলবে এই শরীরকে। যার আশেপাশে পড়ে থাকবে রক্তের চাক। </p>
+                    <p class="status">Status: <span class="coming-soon">Coming Soon.. .</span></p>
                 </div>
             </div>
         </section>
         <section id="blogs">
             <h1 class="section-title">Blogs</h1>
-            <img src="images/Screenshot 2024-01-25 215033.png" draggable="false" alt="">
+            <img src="images/blog-1.png" draggable="false" alt="">
         </section>
     </main>
 
@@ -64,9 +79,12 @@
         </div>
     </footer>
 
-    <!-- <script>
-        window.onload(alert("Mobile and Desktop Only"));
-    </script> -->
+    <script>
+        // window.onload(alert("Mobile and Desktop Only"));
+        function ordererror(){
+            alert("The book is not avaiable right now.");
+        }
+    </script>
 </body>
 
 </html>

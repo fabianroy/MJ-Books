@@ -101,13 +101,13 @@ body {
     font-weight: 600;
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 50px;
 }
 
 .book-shelf .shelf {
     width: 90%;
     height: auto;
     margin: 0 auto;
+    margin-top: 50px;
     padding: 50px 50px;
     border-radius: 20px;
     display: flex;
@@ -130,6 +130,7 @@ body {
 
 .book-shelf .book-description {
     font-size: 1.5rem;
+    line-height: 1.5;
     margin-top: 50px;
     color: #474747;
 }
@@ -163,6 +164,29 @@ sup {
     background-color: #c47806;
 }
 
+.book-shelf .status {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.book-shelf .status .available {
+    color: #52BE80;
+}
+
+.book-shelf .status .unavailable {
+    color: #E74C3C;
+}
+
+.book-shelf .status .coming-soon {
+    color: #3498DB;
+}
+
+.book-2 {
+    flex-direction: row-reverse;
+}
+
 /* Style for News and Blogs */
 
 #blogs {
@@ -177,6 +201,7 @@ sup {
     height: auto;
     margin: auto;
     border: none;
+    margin-top: 50px;
 }
 
 /* Style for Contact Section */
@@ -268,11 +293,11 @@ hr {
         flex-direction: column;
         gap: 20px;
         padding-bottom: 40px;
+        margin-top: 30px;
     }
 
     .section-title {
         margin-top: 30px;
-        margin-bottom: 30px;
         font-size: 2rem;
     }
 
@@ -301,6 +326,7 @@ hr {
     #blogs img {
         width: 100%;
         height: auto;
+        margin-top: 30px;
     }
 
     #contact {
