@@ -157,6 +157,7 @@ sup {
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .book-shelf .book-order:active {
