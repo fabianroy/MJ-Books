@@ -5,6 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MJ Matrix</title>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '909541143826728');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=909541143826728&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap" rel="stylesheet">
@@ -56,7 +77,10 @@
                     <h3 class="book-title">Appreciate The Forgiveness</h3>
                     <h4 class="book-price">Price: <span>BDT 00.00</span></h4>
                     <a class="book-order" onclick="ordererror()">Order Now</a>
-                    <p class="book-description">মৃত্যুর সামনে দাঁড়িয়ে আমার মগজ সকল কিছুর জবাব অনেক পরিস্কার ভাবে দিয়েই চলছে। কেনো যেন নিজের মগজকে একবিংশ শতাব্দীর সেরা কম্পিউটার বলে মনে হচ্ছে। যার কাছে সকল কিছুর জবাবই রয়েছে। একটু পরই নাইনএমএম এর অনেক গুলো শক্ত প্রাচীর আমার শরীরে আঘাত করবে। খন্ড বিখন্ড করে ফেলবে এই শরীরকে। যার আশেপাশে পড়ে থাকবে রক্তের চাক। </p>
+                    <p class="book-description">মৃত্যুর সামনে দাঁড়িয়ে আমার মগজ সকল কিছুর জবাব অনেক পরিস্কার ভাবে দিয়েই
+                        চলছে। কেনো যেন নিজের মগজকে একবিংশ শতাব্দীর সেরা কম্পিউটার বলে মনে হচ্ছে। যার কাছে সকল কিছুর
+                        জবাবই রয়েছে। একটু পরই নাইনএমএম এর অনেক গুলো শক্ত প্রাচীর আমার শরীরে আঘাত করবে। খন্ড বিখন্ড করে
+                        ফেলবে এই শরীরকে। যার আশেপাশে পড়ে থাকবে রক্তের চাক। </p>
                     <p class="status">Status: <span class="coming-soon">Coming Soon.. .</span></p>
                 </div>
             </div>
@@ -81,7 +105,7 @@
 
     <script>
         window.onload(alert("Supported for only Mobile and PC."));
-        function ordererror(){
+        function ordererror() {
             alert("The book is not avaiable right now.");
         }
     </script>
