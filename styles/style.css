@@ -190,14 +190,14 @@ sup {
 
 /* Style for News and Blogs */
 
-#blogs {
+#about {
     width: 50%;
     height: auto;
     margin: auto;
     margin-bottom: 100px;
 }
 
-#blogs img {
+#about img {
     width: 100%;
     height: auto;
     margin: auto;
@@ -317,14 +317,14 @@ hr {
         font-size: 1.2rem;
     }
 
-    #blogs {
+    #about {
         width: 90%;
         height: auto;
         margin: 0 auto;
         margin-bottom: 50px;
     }
 
-    #blogs img {
+    #about img {
         width: 100%;
         height: auto;
         margin-top: 30px;
