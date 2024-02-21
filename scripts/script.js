@@ -1,4 +1,4 @@
-window.onload(alert("Supported for only Mobile and PC."));
+window.onload(alert("Only for Mobile and PC."));
 function ordererror() {
     alert("The book is not avaiable right now.");
 }
