@@ -238,11 +238,23 @@ hr {
 }
 
 .develop {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 0.8rem;
     color: #fff;
     font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
 }
+
+.develop img{
+    width: 30px;
+    height: auto;
+    border-radius: 10px;
+
+}
+
 
 /* Responsive For Phones */
 
