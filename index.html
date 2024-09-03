@@ -97,7 +97,7 @@
         </div>
         <hr>
         <div class="copyright">
-            <p>Copyright &copy; <span id=""></span> Mujtabir Nayeef All Rights Reserved.</p>
+            <p>Copyright &copy; <span id="date"></span> MJ's Books All Rights Reserved.</p>
             <p class="develop"><img src="images/NextTech.png" alt="">Developed by NextTech</p>
         </div>
     </footer>
@@ -108,7 +108,8 @@
     <!-- End Google Tag Manager (noscript) -->
 </body>
 <script>
-    const date = new Data().getFullYear();
+    const date = new Date();
+    document.getElementById('date').innerHTML = date.getFullYear();
 </script>
 
 </html>
