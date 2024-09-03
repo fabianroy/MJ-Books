@@ -9,16 +9,7 @@
     <title>MJ's Books</title>
 
     <!-- Google Tag Manager -->
-    <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PQ5SCGG9');
-    </script>
+
     <!-- End Google Tag Manager -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,6 +18,11 @@
     <script src="https://kit.fontawesome.com/85b6a2ac78.js" crossorigin="anonymous"></script>
     <script src="scripts/script.js"></script>
     <link rel="stylesheet" href="styles/style.css">
+
+    <!-- AOS Animation Start -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS Animation End -->
+
 </head>
 
 <body>
@@ -42,7 +38,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="banner">
+        <div data-aos="fade-up" class="banner">
             <button class="btn btn-primary"><a href="#books">Get Your Book</a></button>
         </div>
     </header>
@@ -52,15 +48,14 @@
             <h1 class="section-title">Books</h1>
 
             <!-- Book 1 -->
-            <div class="shelf book-1">
+            <div data-aos="fade-left" class="shelf book-1">
                 <div class="image">
                     <img src="images/dhuturar shesh chithi.jpg" draggable="false" alt="Dhuturar Shesh Chithi">
                 </div>
                 <div class="content">
                     <h3 class="book-title">Dhuturar Shesh Chithi</h3>
                     <h4 class="book-price">Price: <span>BDT 60.00</span></h4>
-                    <a class="book-order" href="https://forms.gle/aug4a1ZNKtF2vGEL8"
-                        target="_self">Order Now</a>
+                    <a class="book-order" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
                     <p class="book-description">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
                         ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
                     <p class="status">Status: <span class="available">Available</span></p>
@@ -68,7 +63,7 @@
             </div>
 
             <!-- Book 2 -->
-            <div class="shelf book-2">
+            <div data-aos="fade-right" class="shelf book-2">
                 <div class="image">
                     <img src="images/Appreciate The Forgiveness - Front Cover.png" draggable="false"
                         alt="Appreciate The Forgiveness">
@@ -84,7 +79,8 @@
                 </div>
             </div>
         </section>
-        <section id="about">
+
+        <section data-aos="fade-up" id="about">
             <h1 class="section-title">About</h1>
             <img src="images/blog-1.png" draggable="false" alt="blog-img">
         </section>
@@ -103,13 +99,17 @@
     </footer>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQ5SCGG9" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+
     <!-- End Google Tag Manager (noscript) -->
 </body>
 <script>
     const date = new Date();
     document.getElementById('date').innerHTML = date.getFullYear();
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
 </script>
 
 </html>
