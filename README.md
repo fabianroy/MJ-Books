@@ -1,2 +1,2 @@
-# MJ Matrix
-A Testing Purpose Website
+# MJ's Books
+An Online Book Shopping Platform
