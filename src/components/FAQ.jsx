@@ -1,7 +1,7 @@
 
 const FAQ = () => {
     return (
-        <div data-aos="fade-up" className="max-w-screen-xl mx-10 flex flex-col gap-2 my-32">
+        <div data-aos="fade-up" className="max-w-screen-xl mx-10 flex flex-col gap-2 my-12 md:my-16 lg:my-32">
             <h3 className="text-3xl font-semibold text-center mb-6">FAQ</h3>
             <div className="collapse collapse-arrow bg-base-200">
                 <input type="radio" name="my-accordion-2" defaultChecked />
