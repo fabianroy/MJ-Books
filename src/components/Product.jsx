@@ -4,23 +4,8 @@ import product2 from "../assets/Appreciate The Forgiveness - Front Cover.png";
 const Product = () => {
     return (
         <div className="flex flex-col gap-10 mx-4 md:mx-10">
-            {/* Book 1 */}
-            <div data-aos="fade-left" className="flex flex-col md:flex-row gap-4 md:gap-8 border rounded-2xl p-6">
-                <div>
-                    <img data-aos="zoom-out-right" className="w-full md:w-96 h-auto rounded-lg" src={product1} draggable="false" alt="Dhuturar Shesh Chithi" />
-                </div>
-                <div>
-                    <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold">Dhuturar Shesh Chithi</h3>
-                    <h4 className="text-lg mb-4 font-semibold text-orange-500">Price: <span>BDT 60.00</span></h4>
-                    <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
-                    <hr />
-                    <p className="text-base mt-4 md:font-semibold">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
-                        ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
-                    <p className="status mt-4 md:mt-6 font-semibold">Status: <span className="text-green-600">Available</span></p>
-                </div>
-            </div>
 
-            {/* Book 2 */}
+            {/* ATF*/}
             <div data-aos="fade-right" className="flex flex-col md:flex-row-reverse gap-4 md:gap-8 border rounded-2xl p-6">
                 <div>
                     <img data-aos="zoom-out-left" className="w-full md:w-96 h-auto rounded-lg" src={product2} draggable="false" alt="Dhuturar Shesh Chithi" />
@@ -36,6 +21,23 @@ const Product = () => {
                     <p className="status mt-4 md:mt-6 font-semibold md:text-right">Status: <span className="text-green-600">Available</span></p>
                 </div>
             </div>
+
+            {/* DSC */}
+            <div data-aos="fade-left" className="flex flex-col md:flex-row gap-4 md:gap-8 border rounded-2xl p-6">
+                <div>
+                    <img data-aos="zoom-out-right" className="w-full md:w-96 h-auto rounded-lg" src={product1} draggable="false" alt="Dhuturar Shesh Chithi" />
+                </div>
+                <div>
+                    <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold">Dhuturar Shesh Chithi</h3>
+                    <h4 className="text-lg mb-4 font-semibold text-orange-500">Price: <span>BDT 60.00</span></h4>
+                    <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
+                    <hr />
+                    <p className="text-base mt-4 md:font-semibold">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
+                        ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
+                    <p className="status mt-4 md:mt-6 font-semibold">Status: <span className="text-green-600">Available</span></p>
+                </div>
+            </div>
+
         </div>
     );
 };
