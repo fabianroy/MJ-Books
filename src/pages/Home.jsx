@@ -12,12 +12,12 @@ const Home = () => {
         <div>
             <Banner></Banner>
 
-            <div className="lg:max-w-screen-xl mx-auto">
-                <div className="w-fit mx-auto my-32">
-                    <h2 data-aos="zoom-in-up" className="text-5xl text-center font-semibold">
+            <div className="lg:max-w-screen-xl md:mx-auto">
+                <div className="w-fit mx-8 lg:mx-auto my-12 md:my-20 lg:my-32">
+                    <h2 data-aos="zoom-in-up" className="md:text-3xl lg:text-5xl text-xl text-center font-semibold">
                         Now It's Easy To Buy{' '}
-                        <span className="text-orange-500 font-bold text-8xl">Mujtabir Hossain's</span> Books From This{' '}
-                        <span className="text-orange-500 font-bold text-8xl">Brand New</span> Website!!
+                        <span className="text-orange-500 font-bold md:text-3xl lg:text-8xl">Mujtabir Hossain's</span> Books From This{' '}
+                        <span className="text-orange-500 font-bold md:text-3xl lg:text-8xl">Brand New</span> Website!!
                     </h2>
                 </div>
 

@@ -32,7 +32,7 @@ const NavBar = () => {
                         {navList}
                     </ul>
                 </div>
-                <a className="btn btn-ghost md:text-3xl"><span>|</span> <span className="text-white">MJ's</span> Books</a>
+                <a className="text-xl md:text-3xl font-semibold md:ml-8 border-l-[3px] lg:border-l-4 pl-2 border-black"><span className="text-white">MJ's</span> Books</a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 text-lg font-semibold">
