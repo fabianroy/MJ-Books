@@ -1,5 +1,6 @@
 import product1 from "../assets/dhuturar shesh chithi.jpg";
 import product2 from "../assets/Appreciate The Forgiveness - Front Cover.png";
+import product3 from "../assets/onuvutir mrittu.png";
 
 const Product = () => {
     return (
@@ -35,6 +36,23 @@ const Product = () => {
                     <p className="text-base mt-4 md:font-semibold">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
                         ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
                     <p className="status mt-4 md:mt-6 font-semibold">Status: <span className="text-green-600">Available</span></p>
+                </div>
+            </div>
+
+            {/* Onuvutir Mrittu */}
+            <div data-aos="fade-right" className="flex flex-col md:flex-row-reverse gap-4 md:gap-8 border rounded-2xl p-6">
+                <div>
+                    <img data-aos="zoom-out-left" className="w-full md:w-60 h-auto rounded-lg" src={product3} draggable="false" alt="Dhuturar Shesh Chithi" />
+                </div>
+                <div>
+                    <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold md:text-right">Onuvutir Mrittu</h3>
+                    <h4 className="text-lg mb-4 font-semibold text-orange-500 md:text-right"><span>Free Ebook</span></h4>
+                    <div className="md:text-right">
+                        <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="osm.pdf" download={'osm.pdf'} target="_self">Download</a>
+                    </div>
+                    <hr />
+                    <p className="text-base mt-4 md:font-semibold md:text-right">এক বুক ভালোবাসা সঙ্গে করে কবিতা গুলো লেখা। সেই কবিতা থেকে তৈরি হয়েছে উপাখ্যান। যার নাম 'অনুভূতির মৃত্যু'।</p>
+                    <p className="status mt-4 md:mt-6 font-semibold md:text-right">Status: <span className="text-green-600">Available</span></p>
                 </div>
             </div>
 
