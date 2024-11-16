@@ -15,7 +15,7 @@ const Product = () => {
                     <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold md:text-right">Appreciate The Forgiveness</h3>
                     <h4 className="text-lg mb-4 font-semibold text-orange-500 md:text-right">Price: <span>BDT 80.00</span></h4>
                     <div className="md:text-right">
-                        <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white " href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
+                        <a aria-label="order" className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
                     </div>
                     <hr />
                     <p className="text-base mt-4 md:font-semibold md:text-right">আমি সবাইকে ক্ষমা করে দিয়ে যাচ্ছি। আমি জানি যে এই অনুশোচনাবোধ আসার পরও ক্ষমা না পেলে কতটা কষ্ট লাগে। আমি চাইনা আপনারা আজীবন এই কষ্ট নিয়ে বেঁচে থাকেন।</p>
@@ -31,7 +31,7 @@ const Product = () => {
                 <div>
                     <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold">Dhuturar Shesh Chithi</h3>
                     <h4 className="text-lg mb-4 font-semibold text-orange-500">Price: <span>BDT 60.00</span></h4>
-                    <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
+                    <a aria-label="order" className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="https://forms.gle/aug4a1ZNKtF2vGEL8" target="_self">Order Now</a>
                     <hr />
                     <p className="text-base mt-4 md:font-semibold">আমি শুধু আমার পাওনাটা বুঝে নিলাম আর ফিরিয়ে দিলাম আমার বাবার কাছে দেয়া এই
                         ফুলগুলো। যে ফুলগুলোর কারণে আজ আমি বাবা হারানো এক নিঃস্ব হয়ে যাওয়া অনাথ সন্তান। </p>
@@ -48,7 +48,7 @@ const Product = () => {
                     <h3 className="text-xl md:text-3xl mb-2 md:mb-4 font-semibold md:text-right">Onuvutir Mrittu</h3>
                     <h4 className="text-lg mb-4 font-semibold text-orange-500 md:text-right"><span>Free Ebook</span></h4>
                     <div className="md:text-right">
-                        <a className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="osm.pdf" download={'osm.pdf'} target="_self">Download</a>
+                        <a aria-label="order" className="btn w-full md:w-fit mb-4 bg-orange-500 text-white" href="osm.pdf" download={'osm.pdf'} target="_self">Download</a>
                     </div>
                     <hr />
                     <p className="text-base mt-4 md:font-semibold md:text-right">এক বুক ভালোবাসা সঙ্গে করে কবিতা গুলো লেখা। সেই কবিতা থেকে তৈরি হয়েছে উপাখ্যান। যার নাম 'অনুভূতির মৃত্যু'।</p>
