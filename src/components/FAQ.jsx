@@ -14,7 +14,7 @@ const FAQ = () => {
                 <input type="radio" name="my-accordion-2" />
                 <div className="collapse-title text-xl font-medium">How many days will it take to deliver the book?</div>
                 <div className="collapse-content">
-                    <p>It will take 2 to 3 days inside of Dhaka and 5-7 days outside of Dhaka to deliver the book to your doorstep. If you are in Dhaka, you will get the book within 3 days. If you are outside Dhaka, you will get the book within 5 days.</p>
+                    <p>It will take 3 to 5 days to deliver the book to your doorstep.</p>
                 </div>
             </div>
             <div className="collapse collapse-arrow bg-base-200">
